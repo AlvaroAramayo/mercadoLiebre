@@ -1,0 +1,144 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 12px;
+}
+
+main{
+    background-color: #ebebeb;
+    text-align: center;
+    width: 100%;
+    margin: 0 ;
+    /* padding: 20px; */
+}
+footer{
+    text-align: center;
+}
+.fas{
+    font-size: 25px;
+    background-color:#1259c3;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.burger-menu{
+    text-align: center;
+}
+
+header {
+    background-color: #EAC926;
+}
+.titulares {
+    font-size: 24px;
+    color: #666;;
+}
+.precios {
+    font-size: 18px;
+}
+.descuentos { 
+    font-size: 16px;
+    color: #39b54a;
+
+}
+.descripcion {
+    font-size: 16px;
+    line-height: 24px;
+}
+.banner{
+    background-image: url("../img/img-home-banner.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 90px;
+}
+
+.cuotas{
+    text-align: center;
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-truck{
+    color: #39b54a;
+    font-size: 2em;
+    margin: bottom 10px; ;
+}
+
+.articulos{
+    padding: 10px;
+    background-color: white;
+    border:#1259c3 solid 1px;
+    margin: 20px;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen{
+    width: 50%;
+    justify-content: center;
+}
+.imagen img{
+    width: 100%;
+}
+
+.contenido-articulos{
+    
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.buscador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+.buscador img{
+    width: 30%;
+}
+
+
+/* Estilos para tablets */
+@media (min-width: 361px) {
+    .mobile-nav {
+        display: none; 
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .tablet-desktop-nav {
+        display: block;
+    }
+    
+    .articulos {
+        width: 30%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+}
+
+/* Estilos para pantallas de escritorio*/
+@media (min-width: 769px) {
+    .mobile-nav {
+        display: none; 
+    }
+    
+    .tablet-desktop-nav {
+        display: block; 
+    }
+    .articulos {
+        width: 20%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
